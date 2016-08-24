@@ -2,7 +2,7 @@
 using System.Data;
 using System.IO;
 
-namespace Octopus.Email.Common
+namespace Octopus.Email.Framework
 {
     public class AppHelper
     {
@@ -12,7 +12,5 @@ namespace Octopus.Email.Common
             Directory.CreateDirectory(tempDirectory);
             return tempDirectory;
         }
-
-        
     }
 }
